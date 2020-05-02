@@ -1,0 +1,242 @@
+ul{
+	margin:0px;
+        padding: 0;
+        list-style: none;
+        background: white;
+	text-align:left;
+}
+ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+}
+ul li a{
+        display: block;
+        padding: 5px 25px;
+        color: #333;
+        text-decoration: none;
+}
+ul li a:hover{
+        color: #fff;
+        background: #17425a;
+}
+ul li ul.dropdown{
+        min-width: 100%; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+}
+ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+}
+ul li ul.dropdown li{
+        display: block;
+}
+.t1 {
+	color:grey;
+	text-align:center;
+        font-size:16px;
+        padding: 0px;
+}
+.t11 {
+   color: grey;
+   text-align:center;
+   font-size:16px;
+   padding:35px 0px 0px 0px;
+}
+.sign{
+	font-family: 'Allura';
+	font-size:40px;
+	text-align:center;
+	color:grey;
+}
+.face{
+ 	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 50%;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  font-size:16px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 165px;
+  cursor: hand;
+  float: center;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  border: rgb(11, 184, 11);
+  cursor: hand;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #eceaea;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+p.txt {
+  text-align: center;
+  color: rgb(88, 88, 88);
+  margin-bottom:0px;
+  font-size:16px;
+}
+p.txt1 {
+  text-align: center;
+  color:rgb(37, 37, 37);
+  padding:0px;
+  font-size:20px;
+}
+p.txt2 {
+  text-align: center;
+  color:rgb(248, 246, 246);
+  padding:0px;
+  font-size:18px;
+}
+
+
+.fa-instagram {
+  background: #a0a5a0;
+  color: white;
+  border-radius: 75%;
+  text-align: center;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #17425a;
+  color: whitesmoke;
+  padding: 8px 15px;
+  margin: 9px 7px;
+  border: gray;
+  cursor: hand;
+  float :center;
+  font-style:Times New Roman;
+  font-size:14px;
+}
+
+
+
+
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width:1px;
+  text-align:center;
+  padding:  10px 82px;
+  background-color: #F75D59;
+  color:white;
+  border: red;
+	
+}
+.clrbtn {
+  width:1px;
+  text-align:center;
+  padding:  10px 82px;
+  background-color: #589cdb;
+  color:white;
+  border: blue;
+	
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.container1 {
+  padding: 16px;
+  font-size:20px;
+   text-align: left;
+}
+
+span.psw {
+  
+  padding-top: 16px;
+  
+
+}
+
+.animate {
+  
+  animation: animatezoom 0.6s;
+}
+
+@keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+            }
+
+}
