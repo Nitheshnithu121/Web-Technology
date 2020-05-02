@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=0.1">
+<title>Contact Us</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" charset="UTF-8"></script><style>
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  font-size:16px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 165px;
+  cursor: hand;
+  float: center;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  border: rgb(11, 184, 11);
+  cursor: hand;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: black;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p.txt {
+  text-align: center;
+  color: white;
+  margin-bottom:0px;
+  font-size:16px;
+}
+p.txt1 {
+  text-align: center;
+  color:white;
+  padding:0px;
+  font-size:20px;
+}
+p.txt2 {
+  text-align: center;
+  color:white;
+  padding:0px;
+  font-size:18px;
+}
+
+p.txt3{
+  color:black;
+  padding:0px;
+  font-size:18px;
+}
+    
+p.txt4 {
+  text-align: center;
+  color:black;
+  padding:0px;
+  font-size:30px;
+  font-weight: bold;
+}
+
+    
+.social {
+margin-left:-50px;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 20px 0px -50px;
+  border-radius:100%;
+  margin-left:280px;
+  margin-right:-270px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #a0a5a0;
+  color: white;
+  border-radius: 75%;
+  text-align: center;
+
+}
+.fa-twitter {
+  background: #a0a5a0;
+  color: white;
+  border-radius: 75%;
+  text-align: center;
+}
+.fa-instagram {
+  background: #a0a5a0;
+  color: white;
+  border-radius: 75%;
+  text-align: center;
+}
+
+}
+</style>
+    
+
+
+<link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="st.css">
+    <link rel="stylesheet" href="ss.css">
+</head>
+<body>
+<div class="container">
+  <div style="text-align:center">
+  	<p class="txt4">Contact Us</p>
+  </div>
+  <div class="row">
+  	<div class="column">
+
+      		<p class="txt1">Address</p>
+          	<p class="txt">CSE Department</p>
+          	<p class="txt">St Joseph Engineering College </p>
+          	<p class="txt">Near to Vamanjoor junction</p>
+            <p class="txt">Mangaluru, Karnataka</p>
+            <br>
+            <p class="txt1">Phone</p>
+          	<p class="txt">+91 974 3784 939</p>
+            <p class="txt">+91 741 1340 342</p>
+            <p class="txt"> +91 968 6135 526</p>
+        
+            <p class="txt1">E-mail</p>
+            <p class="txt1"> nitheshnithu121@gmail.com</p>
+            <p class="txt1"> gouthamraj881@gmail.com</p>
+            <p class="txt1"> moidun1996@gmail.com</p>
+
+		<div class="social" >
+   			 <a href="#" class="fa fa-facebook"></a>
+    			 <a href="#" class="fa fa-twitter"></a>
+    			 <a href="#" class="fa fa-instagram"></a>
+		</div>
+    	</div>
+    <p id="Contact">
+
+    	<div class="form">
+    		<div class="column">
+      			<form action="#submit" >
+                        <p class="txt3">Name</p>
+       				 <input type="text" required placeholder="Your name.."><br>
+        			 <p class="txt3">Phone No</p>
+        			<input  pattern="\d*"  maxlength="10" minlength="10" required placeholder="Your phone number.." style="width:600px; height:40px">
+				<br><br>
+       				<p class="txt3">Country</p>
+        			<input type="text" required placeholder="Your Country..">
+       			        <p class="txt3">Email id</p>
+        			<input type="text" required placeholder="Your Email id..">
+				<p class="txt3">Feedback</p>
+				<textarea  required placeholder="Write something.." style="height:170px"></textarea>
+        			<input type="submit" value="Submit">
+   
+   
+			</form>
+		</div>
+	</div>
+  </div>
+    
+    
+    
+
+    
+</div>
+
+<script>
+// Get the modal
+	var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+   		 if (event.target == modal) {
+        		modal.style.display = "none";
+    		}
+	}
+</script>
+
+</body>
+</html>
